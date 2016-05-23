@@ -24,57 +24,125 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-      <!-- TODO:
-
-                Create a mobile friendly page header. This may be a navigation
-                bar, but it does not have to be a navigation bar. In fact, it
-                may be more beneficial to try to mock up something more like
-                what you hope to see in your final projects header (title, score,
-                etc.).
-      -->
-
-      <!-- TODO:
-
-                Create a mobile friendly gallery layout that displays a set of
-                at least 24 images. Each image should be displayed along with some
-                metadata: title of image and a brief description. You may use
-                placeholder text (see http://lipsum.com) for both if you do not
-                have titles or descriptions available.
-
-                You may use any HTML structures you want, and this file has
-                Bootstrap linked in, so you may use the responsive layout and
-                image tools that Bootstrap includes.
-      -->
-
-      <!-- TODO:
-
-                Create a mobile-friendly Footer that includes three columns. The
-                columns should contain the following content.
-
-                Column 1:
-
-                  This description: "This page is meant to provide an experimental
-                  proof of concept for a mobile-friendly layout that can be used
-                  to inform the creation of a card matching game."
-
-                Column 2:
-
-                  A list of styled links. These links will be imaginary, and
-                  you should focus on styling them and laying them out in a
-                  way that works well when viewed in both mobile and desktop
-                  browsers.
-
-                Column 3:
-
-                  A table of high scores. Populate at least five rows of the
-                  table with imaginary player names and high scores. The table
-                  should have two columns: name and score.
-      -->
-
+     <header>
+			<div class="jumbotron">
+				<h1 class="text-center">Card Matching Game</h1>
+			</div>
+		</header>
+		<div class="container" id="gameboard">
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <a href="#" class="thumbnail">
+				<img src="img/deck/1.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+           <a href="#" class="thumbnail">
+				<img src="img/deck/2.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+           <a href="#" class="thumbnail">
+				<img src="img/deck/3.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+           <a href="#" class="thumbnail">
+				<img src="img/deck/4.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+           <a href="#" class="thumbnail">
+				<img src="img/deck/5.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+         <a href="#" class="thumbnail">
+				<img src="img/deck/6.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+         <a href="#" class="thumbnail">
+				<img src="img/deck/7.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+           <a href="#" class="thumbnail">
+				<img src="img/deck/8.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <a href="#" class="thumbnail">
+				<img src="img/deck/9.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <a href="#" class="thumbnail">
+				<img src="img/deck/10.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <a href="#" class="thumbnail">
+				<img src="img/deck/11.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
+        <a href="#" class="thumbnail">
+				<img src="img/deck/12.jpg" alt="" class="img-responsive">
+				</a>
+			</div>
+		</div> <!-- end container, gameboard -->
+		
+		<div class="row">
+			<footer>
+				<hr>
+				<div class="container">
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<p>This page is meant to provide an experimental proof of concept for a mobile-friendly layout that can be used to inform the creation of a card matching game.</p>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<ul class="list-unstyled list-inline" id="footer-list">
+							<li><a href="mailto:meganmotis@gmail.com">Contact Megan Otis</a></li>
+							<li><a href="http://webdev.seattleu.edu">Web Development Certificate</a></li>
+							<li><a href="http://www.seattleu.edu">Seattle University</a></li>
+						</ul>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+						<div class="table-responsive">
+							<h4>High Scores</h4>
+							<table class="table-bordered table-hover">
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>Score</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Diane</td>
+										<td>50</td>
+									</tr>
+									<tr>
+										<td>Jack</td>
+										<td>15</td>
+									</tr>
+									<tr>
+										<td>Adam</td>
+										<td>43</td>
+									</tr>
+									<tr>
+										<td>Elsie</td>
+										<td>33</td>
+									</tr>
+									<tr>
+										<td>Loki</td>
+										<td>42</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div> <!-- container end -->
+			</footer>
 
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
